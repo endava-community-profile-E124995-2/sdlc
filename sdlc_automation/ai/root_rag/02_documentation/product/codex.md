@@ -1,0 +1,1 @@
+Detailed product documentation of the managed project.
