@@ -1,0 +1,5 @@
+repos:
+  app:
+    local_path: C:/Workspace/Projects/sample-project
+    worktree_path:
+    active_branch: main

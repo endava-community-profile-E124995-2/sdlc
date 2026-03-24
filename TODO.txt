@@ -1,0 +1,23 @@
+- Implement responsible AI principles
+
+- From request to shipped product (Human-in-the-loop OR Codex Automated):
+-- Human Inbox (raw client request, guided by Product and Requirements Manager AI Agent through a questionaire) ->
+-- Human Outbox (refined and confirmed client request delivered as a Plan) ->
+-- Codex Automation step (you can either hand-off manually to Product and Requirements Manager AI Agent Inbox after verification or automate the step via Codex Automation; e.g. "Run critique -> refine based on critique loop against the Plans inside Human Outbox one by one as ai agents ["Product and Requirements Manager","Architecture and Engineering Manager","Quality and Security and Governance Manager", "Deployment and Operations Manager"] and hand-off to Product and Requirements Manager AI Agent Inbox once refined)
+-- Product and Requirements Manager AI Agent Inbox (process plan as role listed in this row, end result should be artifacts and a Plan linking those artifacts inside a .zip file that precisely tells to the next ai agent in the workflow (Product and Requirements Manager -> Architecture and Engineering Manager -> Quality and Security and Governance Manager -> Deployment and Operations Manager) what to do, do not engage in processing that belongs to next ai agent) ->
+-- Codex Automation step (you can either hand-off manually to Product and Requirements Manager AI Agent Inbox after verification or automate the step via Codex Automation; e.g. "Run critique -> refine based on critique loop against the Plans inside Human Outbox one by one as ai agents ["Product and Requirements Manager","Architecture and Engineering Manager","Quality and Security and Governance Manager", "Deployment and Operations Manager"] and hand-off to Product and Requirements Manager AI Agent Inbox once refined)
+
+
+
+
+
+
+- Develop root questionnaire for all roles that ask about the following:
+-- Who are you interacting with? Offer user input prompt with options.
+-- Reduce skill scope based on first answer
+-- What is the mean of the interaction? Offer user input prompt with options.
+-- Reduce skill scope based on first answer
+-- What are the specifics of the interaction on role to role scale? Offer user input prompt with options.
+-- Reduce skill scope based on first answer
+-- Etc.
+

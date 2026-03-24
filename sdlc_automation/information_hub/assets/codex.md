@@ -1,1 +1,0 @@
-List of filenames inside assets.

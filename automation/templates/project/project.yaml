@@ -1,0 +1,22 @@
+id: sample-project
+name: Sample Project
+summary: Short description of the attached product area.
+owners:
+  - role: product
+    name: TBD
+status: proposed
+repos:
+  - id: app
+    role: primary
+    origin: https://example.com/org/sample-project.git
+    default_branch: main
+active_workflows:
+  - 01_intake
+  - 02_discovery
+  - 03_requirements
+  - 04_architecture
+  - 05_execution
+  - 06_quality
+  - 07_release
+  - 08_operate
+hub_root: projects/sample-project/hub
