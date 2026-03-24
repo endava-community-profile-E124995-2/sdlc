@@ -1,0 +1,7 @@
+interface:
+  display_name: "Architecture and Engineering Manager"
+  short_description: "Architecture decisions and engineering planning"
+  default_prompt: "Use $architecture-and-engineering-manager to assess feasibility, choose the right technical artifact, and plan the engineering work."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Product and Requirements Manager"
+  short_description: "Product discovery and requirements shaping"
+  default_prompt: "Use $product-requirements-manager to frame this product request, choose the right artifact, and tighten the requirements."
+
+policy:
+  allow_implicit_invocation: true
