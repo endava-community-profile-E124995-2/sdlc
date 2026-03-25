@@ -1,3 +1,7 @@
+Learn how to set up various Codex custom MCPs that could be utilized in one way or the other on the project I'm on.
+
+------------
+
 - Implement responsible AI principles
 Dimensions of responsible AI
 

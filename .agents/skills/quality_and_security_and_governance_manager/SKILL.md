@@ -7,6 +7,16 @@ description: Thin adapter for quality review, security review, governance mappin
 
 This skill is a thin repo-local adapter.
 
+## Shared Governance
+
+- [shared precedence](../../shared/precedence.md)
+- [shared source map](../../shared/source-map.md)
+- [shared escalation rules](../../shared/escalation-rules.md)
+- [shared handoff contracts](../../shared/handoff-contracts.md)
+- [shared project-selection policy](../../shared/project-selection-policy.md)
+
+Read the shared governance files first when the task depends on workspace routing, project selection, or handoffs.
+
 ## Canonical Source
 
 - [agent/inference_map.md](../../../automation/roles/quality_and_security_and_governance_manager/agent/inference_map.md)
@@ -41,3 +51,7 @@ Do not use this skill as the primary owner for product discovery, architecture d
 - Call out required approvals, exceptions, and unresolved control gaps.
 - Name the handoff target when product, architecture, or deployment ownership is the real blocker.
 - Route detailed artifacts into the selected project's `hub/issues/` or `hub/decisions/` areas when the task requires durable records.
+
+## Update Rule
+
+- When shared governance or the canonical role docs change, update this adapter, the agent card, and regenerate `.agents/registry.yaml`.

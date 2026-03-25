@@ -7,6 +7,16 @@ description: Thin adapter for technical feasibility, architecture design, engine
 
 This skill is a thin repo-local adapter.
 
+## Shared Governance
+
+- [shared precedence](../../shared/precedence.md)
+- [shared source map](../../shared/source-map.md)
+- [shared escalation rules](../../shared/escalation-rules.md)
+- [shared handoff contracts](../../shared/handoff-contracts.md)
+- [shared project-selection policy](../../shared/project-selection-policy.md)
+
+Read the shared governance files first when the task depends on workspace routing, project selection, or handoffs.
+
 ## Canonical Source
 
 - [agent/inference_map.md](../../../automation/roles/architecture_and_engineering_manager/agent/inference_map.md)
@@ -40,3 +50,7 @@ Do not use this skill as the primary owner for product discovery, business prior
 - Tie recommendations to concrete project context and constraints.
 - Identify dependencies, risks, and required handoffs explicitly.
 - Route durable design artifacts into the selected project's `hub/technology/` or `hub/decisions/` areas when the task needs a persistent record.
+
+## Update Rule
+
+- When shared governance or the canonical role docs change, update this adapter, the agent card, and regenerate `.agents/registry.yaml`.

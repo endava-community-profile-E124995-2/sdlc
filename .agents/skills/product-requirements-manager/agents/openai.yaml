@@ -1,7 +1,7 @@
 interface:
   display_name: "Product and Requirements Manager"
   short_description: "Product discovery and requirements shaping"
-  default_prompt: "Use $product-requirements-manager to frame this request using the canonical role docs under automation/roles/product_requirements_manager."
+  default_prompt: "Use $product-requirements-manager together with the shared Codex governance docs under .agents/shared and the canonical role docs under automation/roles/product_requirements_manager to handle this request."
 
 policy:
   allow_implicit_invocation: true

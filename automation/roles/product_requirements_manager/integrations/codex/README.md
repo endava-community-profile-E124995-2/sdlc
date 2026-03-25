@@ -1,11 +1,14 @@
 ﻿# Codex Integration
 
-This folder documents how the Product and Requirements Manager package feeds the OpenAI Codex app skill.
+This folder documents how the Product and Requirements Manager package feeds the repo-local Codex skill.
 
 ## Live Skill Adapter
 
-- Skill instructions: [`../../../../.agents/skills/product-requirements-manager/SKILL.md`](../../../../.agents/skills/product-requirements-manager/SKILL.md)
-- Agent card: [`../../../../.agents/skills/product-requirements-manager/agents/openai.yaml`](../../../../.agents/skills/product-requirements-manager/agents/openai.yaml)
+- invocation token: `$product-requirements-manager`
+- registry entry: [`../../../../.agents/registry.yaml`](../../../../.agents/registry.yaml)
+- shared governance: [`../../../../.agents/shared/README.md`](../../../../.agents/shared/README.md)
+- skill instructions: [`../../../../.agents/skills/product-requirements-manager/SKILL.md`](../../../../.agents/skills/product-requirements-manager/SKILL.md)
+- agent card: [`../../../../.agents/skills/product-requirements-manager/agents/openai.yaml`](../../../../.agents/skills/product-requirements-manager/agents/openai.yaml)
 
 ## Package Mapping
 
@@ -17,10 +20,10 @@ This folder documents how the Product and Requirements Manager package feeds the
 
 ## Shared Workspace Configuration
 
-- The package and the repo-local skill should both read `SDLC_AUTOMATION_PROJECT_REGISTRY_PATH` to find `projects/registry.yaml`.
-- The package and the repo-local skill should both read `SDLC_AUTOMATION_SHARED_HUB_PATH` to find `hub/shared`.
-- Project-specific hub context should be resolved before shared-hub context, and both should resolve before role assets.
+- Read `SDLC_AUTOMATION_PROJECT_REGISTRY_PATH` to find `projects/registry.yaml`.
+- Read `SDLC_AUTOMATION_SHARED_HUB_PATH` to find `hub/shared`.
+- Resolve project hub and shared hub before role assets.
 
 ## Update Rule
 
-When the active agent surface changes, update the repo-local skill references in `.agents/skills/product-requirements-manager` in the same change.
+When the manifest, shared governance pack, or repo-local adapter changes, regenerate `.agents/registry.yaml` and rerun `automation/tooling/validate_codex_agent_workspace.py`.
