@@ -2,7 +2,7 @@
 
 Use this reference after identifying the base task. Apply one variant unless the request clearly spans two environments.
 
-Active agent source: [agent/source_index.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/agent/source_index.md)
+Active agent source: [agent/source_index.md](../../../../automation/roles/deployment_and_operations_manager/agent/source_index.md)
 
 ## Variant Selection
 
@@ -17,8 +17,8 @@ Active agent source: [agent/source_index.md](../../../../sdlc_automation/ai_agen
 ## What Variants Change
 
 - artifact depth
-- governance strictness
-- cadence expectations
+- coordination strictness
+- checkpoint expectations
 - stakeholder emphasis
 - risk weighting
 
@@ -27,12 +27,17 @@ Active agent source: [agent/source_index.md](../../../../sdlc_automation/ai_agen
 When the work is regulated:
 
 - raise the threshold for silent assumptions
-- require traceability from policy or control to product behavior
-- prefer explicit approval questions, exception handling, and change-control notes
-- escalate sooner when legal or compliance interpretation is unclear
+- require explicit checkpoint ownership and rollback clarity
+- prefer explicit gate handoffs when approvals or evidence matter
+- escalate sooner when deployment work is being asked to absorb governance decisions
 
 ## Sources
 
-- [overview.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/assets/training/fine_tuning/corpus/variants/overview.md)
-- [regulated.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/assets/training/fine_tuning/corpus/variants/regulated.md)
+- [startup.md](../../../../automation/roles/deployment_and_operations_manager/assets/training/fine_tuning/corpus/variants/startup.md)
+- [scale_up.md](../../../../automation/roles/deployment_and_operations_manager/assets/training/fine_tuning/corpus/variants/scale_up.md)
+- [enterprise.md](../../../../automation/roles/deployment_and_operations_manager/assets/training/fine_tuning/corpus/variants/enterprise.md)
+- [platform.md](../../../../automation/roles/deployment_and_operations_manager/assets/training/fine_tuning/corpus/variants/platform.md)
+- [regulated.md](../../../../automation/roles/deployment_and_operations_manager/assets/training/fine_tuning/corpus/variants/regulated.md)
+- [internal_tooling.md](../../../../automation/roles/deployment_and_operations_manager/assets/training/fine_tuning/corpus/variants/internal_tooling.md)
+- [ai_product.md](../../../../automation/roles/deployment_and_operations_manager/assets/training/fine_tuning/corpus/variants/ai_product.md)
 

@@ -1,3 +1,12 @@
 # Builder Notes
 
-Keep this package aligned with the repo-local skill adapter and the workspace context model.
+This folder stores migration plans, maintenance notes, and packaging work for the Deployment and Operations Manager agent.
+
+## Contents
+
+- `migration/`: reorganization history and Codex integration plans
+
+## Rules
+
+- Keep builder-only notes here, not in `agent/`.
+- Update these notes when package structure, corpus shape, or Codex integration changes materially.

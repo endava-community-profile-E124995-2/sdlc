@@ -5,7 +5,7 @@ This package is the canonical product-facing role definition for the Codex SDLC 
 ## Active Surface
 
 - `agent/manifest.md`: package metadata, entrypoint, and workspace context model
-- `agent/inference_map.md`: routing for discovery, requirements, prioritization, rollout, and metrics work
+- `agent/inference_map.md`: routing for discovery, requirements, prioritization, launch readiness, and metrics work
 - `agent/operating_rules.md`: clarify-first behavior, assumptions, and role boundaries
 - `agent/output_contracts.md`: response shapes by task type
 - `agent/source_index.md`: minimum supporting sources and workspace context rules

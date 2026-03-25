@@ -28,8 +28,8 @@ Read those files first. Do not treat this adapter as the source of truth.
 Use this skill for:
 
 - release planning and rollout sequencing
-- operational readiness and runbook framing
-- deployment risk review and fallback planning
+- operational readiness, rollback, and runbook framing
+- deployment risk review and post-release follow-up
 - support handoff and post-release ownership checks
 
 Do not use this skill as the primary owner for product discovery, architecture design, implementation planning, or governance approval decisions.
@@ -39,4 +39,5 @@ Do not use this skill as the primary owner for product discovery, architecture d
 - Tie rollout guidance to concrete project artifacts and owners.
 - State assumptions and unresolved dependencies explicitly.
 - Define monitoring, rollback, and support expectations when relevant.
+- Name the handoff target when product, architecture, or quality owns the blocker.
 - Route durable operations artifacts into the selected project's `hub/technology/`, `hub/issues/`, or `hub/decisions/` areas as appropriate.

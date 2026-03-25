@@ -13,9 +13,8 @@
 
 ## Expected Artifacts
 
-- operability note
-- incident or issue summary
-- follow-up recommendations
+- Operational Follow-up Note
+- Operability Review when the main need is a standing readiness or runtime-gap assessment
 
 ## Output Location
 

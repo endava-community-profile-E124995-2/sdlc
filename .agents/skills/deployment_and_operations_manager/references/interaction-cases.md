@@ -2,63 +2,66 @@
 
 Use this reference when the request is driven by a specific stakeholder interaction or a repeated cross-functional pressure pattern.
 
-Active agent source: [agent/source_index.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/agent/source_index.md)
+Active agent source: [agent/source_index.md](../../../../automation/roles/deployment_and_operations_manager/agent/source_index.md)
 
-## Product Requirement Refinement
+## Rollout Planning
 
-- Use when the problem is known but the requirement set is weak.
-- Signals:
-  - backlog items are moving forward with unresolved ambiguity
-  - peers disagree on scope or exclusions
-  - changes are being made without visible rationale
+- Use when the release scope exists and the team needs a concrete rollout sequence with checkpoints and owners.
 - Expected outputs:
-  - revised requirement set
-  - updated acceptance criteria
-  - change log of what changed and why
-- Source: [product_requirement_refinement.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/assets/training/fine_tuning/corpus/interactions/product_requirement_refinement.md)
+  - rollout plan
+  - explicit hold points and rollback expectations
+- Source: [rollout_planning.md](../../../../automation/roles/deployment_and_operations_manager/assets/training/fine_tuning/corpus/interactions/rollout_planning.md)
 
-## Engineering Requirement Clarification
+## Operability Review
 
-- Use when engineering says the story is too vague, especially around edge cases, failures, dependencies, or non-functional needs.
+- Use when the team needs an explicit view on monitoring, runbooks, rollback readiness, or support ownership before launch.
 - Expected outputs:
-  - clarified requirements and acceptance criteria
-  - dependency notes
-  - explicit non-functional expectations and open questions
+  - operability review
+  - explicit readiness gaps and recommendation
 - Boundary:
-  - clarify intent, rules, and constraints
-  - do not take final architecture ownership
-- Source: [engineering_requirement_clarification.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/assets/training/fine_tuning/corpus/interactions/engineering_requirement_clarification.md)
+  - evaluate runtime readiness
+  - do not invent gate approval or missing runtime design
+- Source: [operability_review.md](../../../../automation/roles/deployment_and_operations_manager/assets/training/fine_tuning/corpus/interactions/operability_review.md)
 
-## Sales Priority Pressure
+## Support Handoff
 
-- Use when commercial pressure is distorting prioritization.
-- Signals:
-  - a deal-driven ask is being framed as roadmap critical
-  - request volume is being confused with validated demand
-  - evidence quality is weaker than stakeholder pressure
+- Use when a release or operational event must be transferred to a receiving support or on-call function.
 - Expected outputs:
-  - recommendation with explicit evidence quality
-  - separation of customer request from product need
-  - follow-up discovery or segmentation recommendation
-- Source: [sales_priority_pressure.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/assets/training/fine_tuning/corpus/interactions/sales_priority_pressure.md)
+  - operations handoff note
+  - explicit owner, open risks, and acceptance criteria
+- Source: [support_handoff.md](../../../../automation/roles/deployment_and_operations_manager/assets/training/fine_tuning/corpus/interactions/support_handoff.md)
 
-## Data Metric Design
+## Post-Release Follow-up
 
-- Use when the team needs KPI cleanup, launch metrics, or post-launch interpretation.
+- Use when production signals exist and the team needs operational interpretation and next actions.
 - Expected outputs:
-  - metric definitions and baselines
-  - instrumentation questions and gaps
-  - leading and lagging measure guidance
-- Source: [data_metric_design.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/assets/training/fine_tuning/corpus/interactions/data_metric_design.md)
+  - operational follow-up note
+  - interpreted anomalies and owner-assigned next steps
+- Source: [post_release_follow_up.md](../../../../automation/roles/deployment_and_operations_manager/assets/training/fine_tuning/corpus/interactions/post_release_follow_up.md)
 
-## Compliance Requirement Mapping
+## Product Rollout Constraint Handoff
 
-- Use when policy, privacy, auditability, or approval-driven traceability shapes the work.
+- Use when business rollout policy, audience choice, or enablement timing blocks safe deployment planning.
 - Expected outputs:
-  - traceable requirement mapping
-  - policy-driven constraints
-  - explicit approval questions and risk notes
+  - rollout-planning handoff to product
+  - explicit missing business decisions and unblock criteria
 - Boundary:
-  - do not replace legal or compliance judgment
-- Source: [grc_compliance_requirement_mapping.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/assets/training/fine_tuning/corpus/interactions/grc_compliance_requirement_mapping.md)
+  - do not invent rollout policy or audience segmentation
+- Source: [product_rollout_constraint_handoff.md](../../../../automation/roles/deployment_and_operations_manager/assets/training/fine_tuning/corpus/interactions/product_rollout_constraint_handoff.md)
+
+## Architecture Runtime Boundary Handoff
+
+- Use when deployment can identify a rollback or runtime risk but the mitigation depends on an unresolved design boundary.
+- Expected outputs:
+  - operability review that names the architecture blocker
+  - clear design question and unblock criteria
+- Source: [architecture_runtime_boundary_handoff.md](../../../../automation/roles/deployment_and_operations_manager/assets/training/fine_tuning/corpus/interactions/architecture_runtime_boundary_handoff.md)
+
+## Quality Gate Handoff
+
+- Use when the user is asking for ship or no-ship approval, evidence sufficiency, or exception handling that deployment does not own.
+- Expected outputs:
+  - deployment-oriented readiness note with an explicit handoff to quality
+  - clear statement of known operational inputs and missing gate ownership
+- Source: [quality_gate_handoff.md](../../../../automation/roles/deployment_and_operations_manager/assets/training/fine_tuning/corpus/interactions/quality_gate_handoff.md)
 

@@ -15,7 +15,7 @@ Ask clarifying questions before drafting if any of these are missing or ambiguou
 - intended outcome or success criteria
 - scope or explicit exclusions
 - legal, compliance, privacy, security, or budget constraints
-- task type: discovery, requirements, prioritization, rollout, metrics, or governance review
+- task type: discovery, requirements, prioritization, launch readiness, metrics, or governance review
 
 ## Assumptions
 
@@ -37,6 +37,7 @@ Ask clarifying questions before drafting if any of these are missing or ambiguou
 - Do not present product requirements as final architecture or implementation design.
 - Do not approve legal, privacy, security, finance, or compliance decisions on behalf of subject-matter owners.
 - Hand to quality, security, and governance when approval, control interpretation, evidence sufficiency, exception framing, or release-gate recommendations become the primary work.
+- Hand to deployment and operations when rollout sequence, rollback readiness, observability, runbooks, or support ownership become the primary work.
 
 ## Escalation
 

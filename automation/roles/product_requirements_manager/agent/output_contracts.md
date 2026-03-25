@@ -38,16 +38,17 @@ Required sections:
 - risks
 - follow-up actions
 
-## Launch Or Rollout
+## Launch Readiness
 
 Required sections:
 
 - audience
 - release scope
-- rollout approach
+- business rollout constraints
 - enablement needs
-- monitoring plan
+- monitoring expectations for downstream deployment planning
 - fallback expectations
+- handoff to deployment when runtime release execution begins
 
 ## Metrics Or Outcome Review
 

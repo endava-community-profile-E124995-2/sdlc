@@ -12,7 +12,7 @@
 - primary: Quality and Security and Governance Manager
 - upstream dependency: Architecture and Engineering Manager for unresolved technical boundary questions
 - upstream dependency: Product and Requirements Manager when policy interpretation depends on missing business rules
-- downstream handoff: Deployment and Operations Manager when gate outcomes depend on rollout, rollback, monitoring, or support-readiness work
+- downstream handoff: Deployment and Operations Manager for Rollout Plan or Operability Review when gate outcomes depend on rollout, rollback, monitoring, or support-readiness work
 
 ## Expected Artifacts
 
@@ -20,6 +20,7 @@
 - Security Review Note
 - Governance Mapping Note
 - Release Gate Memo
+- downstream deployment handoff when runtime readiness remains the unblock path
 
 ## Output Location
 

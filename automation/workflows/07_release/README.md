@@ -4,7 +4,7 @@
 
 - approved change set
 - release scope and target environment
-- Release Gate Memo and rollback expectations
+- Release Gate Memo and operating expectations
 
 ## Role Handoffs
 
@@ -14,10 +14,9 @@
 
 ## Expected Artifacts
 
-- rollout plan
-- release checklist
-- rollback and communication notes
-- explicit gate prerequisite tracking when release approval is not yet satisfied
+- Rollout Plan
+- Operations Handoff Note when runtime ownership must transfer during or immediately after release
+- rollback, communication, and gate-prerequisite tracking embedded in the Rollout Plan
 
 ## Output Location
 

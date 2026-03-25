@@ -1,7 +1,7 @@
 interface:
   display_name: "Deployment and Operations Manager"
-  short_description: "Release planning and operability"
-  default_prompt: "Use $deployment-and-operations-manager to plan this request using the canonical role docs under automation/roles/deployment_and_operations_manager."
+  short_description: "Release planning and runtime readiness"
+  default_prompt: "Use $deployment-and-operations-manager to plan this request using the canonical deployment and operations docs under automation/roles/deployment_and_operations_manager."
 
 policy:
   allow_implicit_invocation: true

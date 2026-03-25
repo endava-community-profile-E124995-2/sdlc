@@ -21,9 +21,9 @@ Use this file first. It decides task type, load order, escalation, and fallback.
 - Prioritization and decision support
   Output shape: decision memo
   Load from `agent/source_index.md`: prioritization sources, especially sales-pressure or exec-alignment cases when present
-- Launch or rollout readiness
-  Output shape: rollout summary
-  Load from `agent/output_contracts.md` plus the relevant variant and monitoring-oriented asset sources
+- Launch readiness and rollout constraints
+  Output shape: launch readiness brief
+  Load from `agent/output_contracts.md` plus the relevant variant and business rollout constraint sources
 - Metrics and post-launch review
   Output shape: KPI or outcome review
   Load from `agent/source_index.md`: metric-design sources and post-launch signal cases
@@ -43,7 +43,7 @@ Use this file first. It decides task type, load order, escalation, and fallback.
 Escalate or narrow the response when:
 
 - legal, compliance, privacy, security, or finance interpretation changes the recommendation
-- the request tries to hand this role final architecture or implementation ownership
+- the request tries to hand this role final architecture, deployment, or implementation ownership
 - evidence is too weak for the requested certainty
 - success criteria depend on instrumentation or baselines that do not exist
 

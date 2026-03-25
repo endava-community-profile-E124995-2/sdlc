@@ -4,8 +4,8 @@ Use this reference to choose the right output shape and load the minimum support
 
 ## Active Agent Sources
 
-- [agent/output_contracts.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/agent/output_contracts.md)
-- [agent/source_index.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/agent/source_index.md)
+- [agent/output_contracts.md](../../../../automation/roles/deployment_and_operations_manager/agent/output_contracts.md)
+- [agent/source_index.md](../../../../automation/roles/deployment_and_operations_manager/agent/source_index.md)
 
 ## Source Precedence
 
@@ -18,57 +18,50 @@ Use this reference to choose the right output shape and load the minimum support
 
 ## Task Routing
 
-### Discovery and Problem Framing
+### Rollout Planning
 
-- Primary artifact: discovery brief
-- Output target: problem statement, target user or segment, evidence summary, assumptions and unknowns, next validation step
+- Primary artifact: Rollout Plan
+- Output target: release scope, rollout sequence, rollback readiness, monitoring and communication expectations, owners, hold points, and open operational risks
 - Source files:
-  - [discovery_brief.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/assets/training/fine_tuning/corpus/artifacts/discovery_brief.md)
-  - [inference_map.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/agent/inference_map.md)
+  - [rollout_plan.md](../../../../automation/roles/deployment_and_operations_manager/assets/training/fine_tuning/corpus/artifacts/rollout_plan.md)
+  - [rollout_planning.md](../../../../automation/roles/deployment_and_operations_manager/assets/training/fine_tuning/corpus/interactions/rollout_planning.md)
 
-### Requirements Definition Or Refinement
+### Operability Review
 
-- Primary artifact: PRD
-- Output target: scope, exclusions, business rules, functional requirements, non-functional requirements, acceptance criteria, dependencies, risks, open questions
+- Primary artifact: Operability Review
+- Output target: reviewed runtime scope, readiness expectations, monitoring status, runbook and support ownership status, gaps, and recommendation
 - Source files:
-  - [prd.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/assets/training/fine_tuning/corpus/artifacts/prd.md)
-  - [product_requirement_refinement.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/assets/training/fine_tuning/corpus/interactions/product_requirement_refinement.md)
-  - [engineering_requirement_clarification.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/assets/training/fine_tuning/corpus/interactions/engineering_requirement_clarification.md)
+  - [operability_review.md](../../../../automation/roles/deployment_and_operations_manager/assets/training/fine_tuning/corpus/artifacts/operability_review.md)
+  - [operability_review.md](../../../../automation/roles/deployment_and_operations_manager/assets/training/fine_tuning/corpus/interactions/operability_review.md)
 
-### Prioritization And Decision Support
+### Support Handoff
 
-- Primary artifact: decision memo
-- Output target: options considered, recommendation, rationale, trade-offs, risks, follow-up actions
+- Primary artifact: Operations Handoff Note
+- Output target: receiving owner, current state, required runbooks and access, open risks, and acceptance criteria
 - Source files:
-  - [decision_memo.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/assets/training/fine_tuning/corpus/artifacts/decision_memo.md)
-  - [sales_priority_pressure.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/assets/training/fine_tuning/corpus/interactions/sales_priority_pressure.md)
+  - [operations_handoff_note.md](../../../../automation/roles/deployment_and_operations_manager/assets/training/fine_tuning/corpus/artifacts/operations_handoff_note.md)
+  - [support_handoff.md](../../../../automation/roles/deployment_and_operations_manager/assets/training/fine_tuning/corpus/interactions/support_handoff.md)
 
-### Launch Or Rollout Readiness
+### Post-Release Follow-up
 
-- Output target: audience, release scope, rollout approach, enablement needs, monitoring plan, fallback expectations
+- Primary artifact: Operational Follow-up Note
+- Output target: review window, incidents or anomalies, interpretation, owner-assigned follow-up, and next checkpoint
 - Source files:
-  - [assistant_operating_policy.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/assets/training/fine_tuning/corpus/policies/assistant_operating_policy.md)
-  - [inference_map.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/agent/inference_map.md)
+  - [operational_follow_up_note.md](../../../../automation/roles/deployment_and_operations_manager/assets/training/fine_tuning/corpus/artifacts/operational_follow_up_note.md)
+  - [post_release_follow_up.md](../../../../automation/roles/deployment_and_operations_manager/assets/training/fine_tuning/corpus/interactions/post_release_follow_up.md)
 
-### Metrics And Post-Launch Review
+### Handoff Patterns
 
-- Primary interaction: metric design
-- Output target: metric definition, baseline need, instrumentation gaps, interpretation notes, next action
-- Source files:
-  - [data_metric_design.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/assets/training/fine_tuning/corpus/interactions/data_metric_design.md)
-  - [adoption_rate.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/assets/training/fine_tuning/corpus/metrics/adoption_rate.md)
-
-### Governance, Compliance, Or Control-Heavy Work
-
-- Primary output: traceable requirement mapping with approval questions and risks
-- Source files:
-  - [grc_compliance_requirement_mapping.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/assets/training/fine_tuning/corpus/interactions/grc_compliance_requirement_mapping.md)
-  - [regulated.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/assets/training/fine_tuning/corpus/variants/regulated.md)
-  - [prd.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/assets/training/fine_tuning/corpus/artifacts/prd.md)
+- Product handoff source:
+  - [product_rollout_constraint_handoff.md](../../../../automation/roles/deployment_and_operations_manager/assets/training/fine_tuning/corpus/interactions/product_rollout_constraint_handoff.md)
+- Architecture handoff source:
+  - [architecture_runtime_boundary_handoff.md](../../../../automation/roles/deployment_and_operations_manager/assets/training/fine_tuning/corpus/interactions/architecture_runtime_boundary_handoff.md)
+- Quality handoff source:
+  - [quality_gate_handoff.md](../../../../automation/roles/deployment_and_operations_manager/assets/training/fine_tuning/corpus/interactions/quality_gate_handoff.md)
 
 ## Legacy Fallback
 
 Use the legacy pack only when the structured assets do not cover the request well enough:
 
-- [legacy_role_rag](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/assets/knowledge/legacy_role_rag)
+- [legacy_role_rag](../../../../automation/roles/deployment_and_operations_manager/assets/knowledge/legacy_role_rag)
 
