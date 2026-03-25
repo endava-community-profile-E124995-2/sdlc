@@ -26,3 +26,11 @@ Codex tasks should resolve context in this order:
 1. selected project hub
 2. shared hub
 3. role package assets
+
+## Codex Agent Governance
+
+- Cross-role Codex governance is canonical under `hub/shared/standards/codex-agent-governance/`.
+- Repo-local app-facing adapters live under `.agents/shared/` and `.agents/skills/`.
+- `.agents/registry.yaml` is the generated discovery registry for the live workspace skills.
+- Run `python automation/tooling/generate_agent_registry.py` after changing role manifests or adapters.
+- Run `python automation/tooling/validate_codex_agent_workspace.py` to validate registry parity, shared governance coverage, and routing metadata.

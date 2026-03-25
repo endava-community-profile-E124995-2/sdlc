@@ -1,2 +1,3 @@
 .DS_Store
+.artifacts/
 projects/*/attachment.local.yaml

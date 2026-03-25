@@ -1,0 +1,55 @@
+version: 1
+generated_by: "automation/tooling/generate_agent_registry.py"
+agents:
+  architecture-and-engineering-manager:
+    display_name: "Architecture and Engineering Manager"
+    directory_name: "architecture_and_engineering_manager"
+    canonical_role_root: "automation/roles/architecture_and_engineering_manager"
+    manifest_path: "automation/roles/architecture_and_engineering_manager/agent/manifest.md"
+    skill_root: ".agents/skills/architecture_and_engineering_manager"
+    skill_instruction_path: ".agents/skills/architecture_and_engineering_manager/SKILL.md"
+    openai_card_path: ".agents/skills/architecture_and_engineering_manager/agents/openai.yaml"
+    invocation_token: "$architecture-and-engineering-manager"
+    short_description: "Technical feasibility and execution planning"
+    allow_implicit_invocation: true
+    validation_command: "python assets/training/fine_tuning/tooling/validate_seed_corpus.py"
+    status: "active_agent_package"
+  deployment-and-operations-manager:
+    display_name: "Deployment and Operations Manager"
+    directory_name: "deployment_and_operations_manager"
+    canonical_role_root: "automation/roles/deployment_and_operations_manager"
+    manifest_path: "automation/roles/deployment_and_operations_manager/agent/manifest.md"
+    skill_root: ".agents/skills/deployment_and_operations_manager"
+    skill_instruction_path: ".agents/skills/deployment_and_operations_manager/SKILL.md"
+    openai_card_path: ".agents/skills/deployment_and_operations_manager/agents/openai.yaml"
+    invocation_token: "$deployment-and-operations-manager"
+    short_description: "Release planning and runtime readiness"
+    allow_implicit_invocation: true
+    validation_command: "python assets/training/fine_tuning/tooling/validate_seed_corpus.py"
+    status: "active_agent_package"
+  product-requirements-manager:
+    display_name: "Product and Requirements Manager"
+    directory_name: "product-requirements-manager"
+    canonical_role_root: "automation/roles/product_requirements_manager"
+    manifest_path: "automation/roles/product_requirements_manager/agent/manifest.md"
+    skill_root: ".agents/skills/product-requirements-manager"
+    skill_instruction_path: ".agents/skills/product-requirements-manager/SKILL.md"
+    openai_card_path: ".agents/skills/product-requirements-manager/agents/openai.yaml"
+    invocation_token: "$product-requirements-manager"
+    short_description: "Product discovery and requirements shaping"
+    allow_implicit_invocation: true
+    validation_command: "python assets/training/fine_tuning/tooling/validate_seed_corpus.py"
+    status: "active_agent_package"
+  quality-and-security-and-governance-manager:
+    display_name: "Quality and Security and Governance Manager"
+    directory_name: "quality_and_security_and_governance_manager"
+    canonical_role_root: "automation/roles/quality_and_security_and_governance_manager"
+    manifest_path: "automation/roles/quality_and_security_and_governance_manager/agent/manifest.md"
+    skill_root: ".agents/skills/quality_and_security_and_governance_manager"
+    skill_instruction_path: ".agents/skills/quality_and_security_and_governance_manager/SKILL.md"
+    openai_card_path: ".agents/skills/quality_and_security_and_governance_manager/agents/openai.yaml"
+    invocation_token: "$quality-and-security-and-governance-manager"
+    short_description: "Independent assurance, control mapping, and release-gate review"
+    allow_implicit_invocation: true
+    validation_command: "python assets/training/fine_tuning/tooling/validate_seed_corpus.py"
+    status: "active_agent_package"

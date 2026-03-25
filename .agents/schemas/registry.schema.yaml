@@ -1,0 +1,25 @@
+version: 1
+type: mapping
+required_top_level:
+  version: integer
+  generated_by: string
+  agents: mapping
+agent_key_rule: invocation token without the leading dollar sign
+required_agent_fields:
+  display_name: string
+  directory_name: string
+  canonical_role_root: string
+  manifest_path: string
+  skill_root: string
+  skill_instruction_path: string
+  openai_card_path: string
+  invocation_token: string
+  short_description: string
+  allow_implicit_invocation: boolean
+  validation_command: string
+  status: string
+validation_rules:
+  invocation_token_prefix: "$"
+  canonical_role_root_prefix: "automation/roles/"
+  skill_root_prefix: ".agents/skills/"
+  registry_generator: "automation/tooling/generate_agent_registry.py"
