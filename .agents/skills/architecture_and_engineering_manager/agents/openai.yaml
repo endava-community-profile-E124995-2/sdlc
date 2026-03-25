@@ -1,7 +1,7 @@
 interface:
   display_name: "Architecture and Engineering Manager"
-  short_description: "Architecture decisions and engineering planning"
-  default_prompt: "Use $architecture-and-engineering-manager to assess feasibility, choose the right technical artifact, and plan the engineering work."
+  short_description: "Technical feasibility and execution planning"
+  default_prompt: "Use $architecture-and-engineering-manager to plan this request using the canonical role docs under automation/roles/architecture_and_engineering_manager."
 
 policy:
   allow_implicit_invocation: true

@@ -1,1 +1,0 @@
-Detailed technical documentation of the managed project.

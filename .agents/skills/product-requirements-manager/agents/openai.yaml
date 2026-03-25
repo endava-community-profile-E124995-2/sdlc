@@ -1,7 +1,7 @@
 interface:
   display_name: "Product and Requirements Manager"
   short_description: "Product discovery and requirements shaping"
-  default_prompt: "Use $product-requirements-manager to frame this product request, choose the right artifact, tighten the requirements, and use SDLC_AUTOMATION_PROJECT_PATHS and SDLC_AUTOMATION_INFORMATION_HUB_PATHS when project-specific or information-hub context is needed."
+  default_prompt: "Use $product-requirements-manager to frame this request using the canonical role docs under automation/roles/product_requirements_manager."
 
 policy:
   allow_implicit_invocation: true

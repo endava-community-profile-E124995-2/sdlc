@@ -1,7 +1,7 @@
 interface:
-  display_name: "Product and Requirements Manager"
-  short_description: "Product discovery and requirements shaping"
-  default_prompt: "Use $product-requirements-manager to frame this product request, choose the right artifact, and tighten the requirements."
+  display_name: "Quality and Security and Governance Manager"
+  short_description: "Quality review and release-gate mapping"
+  default_prompt: "Use $quality-and-security-and-governance-manager to review this request using the canonical role docs under automation/roles/quality_and_security_and_governance_manager."
 
 policy:
   allow_implicit_invocation: true

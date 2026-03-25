@@ -1,4 +1,11 @@
 - Implement responsible AI principles
+Dimensions of responsible AI
+
+• Fairness: Ensuring AI does not perpetuate or amplify biases
+• Transparency: Making AI systems and their decisions understandable to stakeholders impacted
+• Privacy: Protecting user data and ensure confidentiality
+• Security: Safeguard AI systems from malicious attacks
+• Ethical Use: Ensuring AI is used for beneficial purposes
 
 - From request to shipped product (Human-in-the-loop OR Codex Automated):
 -- Human Inbox (raw client request, guided by Product and Requirements Manager AI Agent through a questionaire) ->

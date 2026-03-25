@@ -1,4 +1,4 @@
-﻿# Product And Requirements Manager Agent Builder
+# Product And Requirements Manager Role Package
 
 This package is the canonical product-facing role definition for the Codex SDLC workspace. The repo-local adapter lives at [`../../../.agents/skills/product-requirements-manager`](../../../.agents/skills/product-requirements-manager), while this folder holds the source-of-truth agent contract and assets.
 

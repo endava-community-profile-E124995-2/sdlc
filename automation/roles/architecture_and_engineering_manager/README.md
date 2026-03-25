@@ -1,6 +1,6 @@
-﻿# Architecture And Engineering Manager Agent Builder
+# Architecture And Engineering Manager Role Package
 
-This package is the source layout for a skill-oriented OpenAI Codex app agent for the Architecture and Engineering Manager role. The live Codex skill adapter stays repo-local at [`../../../../.agents/skills/architecture_and_engineering_manager`](../../../../.agents/skills/architecture_and_engineering_manager), while this folder holds the agent contract, backing assets, and builder notes that feed it.
+This package is the canonical technical role definition for the Codex SDLC workspace. The repo-local adapter lives at [`../../../.agents/skills/architecture_and_engineering_manager`](../../../.agents/skills/architecture_and_engineering_manager), while this folder holds the source-of-truth agent contract and assets.
 
 ## Active Surface
 
