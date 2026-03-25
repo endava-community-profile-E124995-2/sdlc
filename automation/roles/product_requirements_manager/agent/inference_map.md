@@ -30,6 +30,7 @@ Use this file first. It decides task type, load order, escalation, and fallback.
 - Governance, compliance, or control-heavy work
   Output shape: traceable requirement mapping or governance-shaped decision memo
   Load from `agent/source_index.md`: compliance mapping sources and the regulated variant
+  Boundary: keep policy-driven requirement mapping here, but hand off to quality, security, and governance when approval, control interpretation, evidence sufficiency, exception framing, or release-gate recommendations are the primary outcome
 
 ## Variant Selection
 

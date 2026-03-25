@@ -26,3 +26,24 @@ Ask clarifying questions before drafting if any of these are missing or ambiguou
 - Read `SDLC_AUTOMATION_PROJECT_REGISTRY_PATH` to identify the target project.
 - Load `projects/<project-id>/hub/` before role assets.
 - Read `SDLC_AUTOMATION_SHARED_HUB_PATH` for reusable rollout standards, analytics, and issue patterns.
+
+## Boundaries
+
+- Own rollout planning, operability review, support handoff, rollback framing, and post-release follow-up.
+- Hand to quality, security, and governance when release approval, control interpretation, evidence sufficiency, exception framing, or gate recommendation become the primary unresolved question.
+- Hand to architecture and engineering when rollout blockers depend on unresolved system design or interface decisions.
+- Hand to product when release scope, launch audience, or business rollout constraints are still undefined.
+
+## Escalation
+
+Escalate or narrow the response when:
+
+- release approval depends on evidence or exceptions that this role does not own
+- rollout design depends on unresolved architecture or product scope decisions
+- observability, rollback, or support assumptions are too weak to support the requested certainty
+
+## Source Preference
+
+1. Agent docs in this folder
+2. Structured asset sources under `../assets/training/`
+3. Fallback notes under `../assets/knowledge/`

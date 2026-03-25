@@ -21,3 +21,8 @@ Use this file first. It decides task type, load order, and handoff points.
   Output shape: operations handoff note
 - Post-release signal review
   Output shape: operational follow-up note
+
+## Handoff Rules
+
+- When release approval, control interpretation, evidence sufficiency, or exception framing are the primary blockers, hand off to quality, security, and governance instead of treating the release as operationally approved.
+- When rollout work depends on unresolved design boundaries, hand off to architecture and engineering.

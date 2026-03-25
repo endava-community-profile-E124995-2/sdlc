@@ -27,10 +27,10 @@ Read those files first. Do not treat this adapter as the source of truth.
 
 Use this skill for:
 
-- quality review and test-readiness checks
-- security review and control mapping
-- governance-sensitive requirement traceability
-- release-gate recommendations and exception framing
+- independent quality review and verification sufficiency checks
+- security review and security-boundary risk framing
+- governance mapping, evidence sufficiency review, and exception framing
+- release-gate recommendations and approval-gap identification
 
 Do not use this skill as the primary owner for product discovery, architecture design, implementation planning, or runtime operations.
 
@@ -39,4 +39,5 @@ Do not use this skill as the primary owner for product discovery, architecture d
 - Make findings traceable to project or shared-hub evidence.
 - Separate fact, inference, and `Assumption:` explicitly.
 - Call out required approvals, exceptions, and unresolved control gaps.
+- Name the handoff target when product, architecture, or deployment ownership is the real blocker.
 - Route detailed artifacts into the selected project's `hub/issues/` or `hub/decisions/` areas when the task requires durable records.

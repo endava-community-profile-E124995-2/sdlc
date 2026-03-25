@@ -66,6 +66,7 @@ Required sections:
 - traceable requirement mapping
 - policy-driven constraints
 - approval or interpretation questions
+- handoff to quality when independent review, evidence sufficiency, or gate recommendation is required
 - risks and escalation points
 
 ## Detailed Sources

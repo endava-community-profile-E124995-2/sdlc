@@ -50,6 +50,7 @@ Use this file to locate the minimum asset material needed after the task is clas
 - variant: `../assets/training/fine_tuning/corpus/variants/regulated.md`
 - artifact: `../assets/training/fine_tuning/corpus/artifacts/prd.md`
 - artifact: `../assets/training/fine_tuning/corpus/artifacts/decision_memo.md`
+- boundary: keep requirement traceability here, then hand off to quality, security, and governance when review authority, evidence sufficiency, or release-gate outcomes are the primary ask
 
 ## Variant Packs
 

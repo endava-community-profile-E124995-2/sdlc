@@ -2,63 +2,66 @@
 
 Use this reference when the request is driven by a specific stakeholder interaction or a repeated cross-functional pressure pattern.
 
-Active agent source: [agent/source_index.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/agent/source_index.md)
+Active agent source: [agent/source_index.md](../../../../automation/roles/quality_and_security_and_governance_manager/agent/source_index.md)
 
-## Product Requirement Refinement
+## Verification Strategy Review
 
-- Use when the problem is known but the requirement set is weak.
-- Signals:
-  - backlog items are moving forward with unresolved ambiguity
-  - peers disagree on scope or exclusions
-  - changes are being made without visible rationale
+- Use when the execution path exists but the team needs an independent view on whether validation is sufficient.
 - Expected outputs:
-  - revised requirement set
-  - updated acceptance criteria
-  - change log of what changed and why
-- Source: [product_requirement_refinement.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/assets/training/fine_tuning/corpus/interactions/product_requirement_refinement.md)
+  - quality review note
+  - explicit validation gaps and unblockers
+- Source: [verification_strategy_review.md](../../../../automation/roles/quality_and_security_and_governance_manager/assets/training/fine_tuning/corpus/interactions/verification_strategy_review.md)
 
-## Engineering Requirement Clarification
+## Security Boundary Review
 
-- Use when engineering says the story is too vague, especially around edge cases, failures, dependencies, or non-functional needs.
+- Use when a change crosses a trust, identity, access, or audit boundary.
 - Expected outputs:
-  - clarified requirements and acceptance criteria
-  - dependency notes
-  - explicit non-functional expectations and open questions
+  - security review note
+  - explicit risks, evidence gaps, and follow-up
 - Boundary:
-  - clarify intent, rules, and constraints
-  - do not take final architecture ownership
-- Source: [engineering_requirement_clarification.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/assets/training/fine_tuning/corpus/interactions/engineering_requirement_clarification.md)
+  - review the boundary and controls
+  - do not invent the final architecture decision
+- Source: [security_boundary_review.md](../../../../automation/roles/quality_and_security_and_governance_manager/assets/training/fine_tuning/corpus/interactions/security_boundary_review.md)
 
-## Sales Priority Pressure
+## Governance Control Mapping
 
-- Use when commercial pressure is distorting prioritization.
-- Signals:
-  - a deal-driven ask is being framed as roadmap critical
-  - request volume is being confused with validated demand
-  - evidence quality is weaker than stakeholder pressure
+- Use when policy, control, evidence, or exception traceability shapes the work.
 - Expected outputs:
-  - recommendation with explicit evidence quality
-  - separation of customer request from product need
-  - follow-up discovery or segmentation recommendation
-- Source: [sales_priority_pressure.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/assets/training/fine_tuning/corpus/interactions/sales_priority_pressure.md)
+  - governance mapping note
+  - approval or exception questions
+- Source: [governance_control_mapping.md](../../../../automation/roles/quality_and_security_and_governance_manager/assets/training/fine_tuning/corpus/interactions/governance_control_mapping.md)
 
-## Data Metric Design
+## Release Gate Assessment
 
-- Use when the team needs KPI cleanup, launch metrics, or post-launch interpretation.
+- Use when the main question is whether the release boundary should pass, pause, or block.
 - Expected outputs:
-  - metric definitions and baselines
-  - instrumentation questions and gaps
-  - leading and lagging measure guidance
-- Source: [data_metric_design.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/assets/training/fine_tuning/corpus/interactions/data_metric_design.md)
+  - release gate memo
+  - blockers, handoffs, and unblock criteria
+- Source: [release_gate_assessment.md](../../../../automation/roles/quality_and_security_and_governance_manager/assets/training/fine_tuning/corpus/interactions/release_gate_assessment.md)
 
-## Compliance Requirement Mapping
+## Product Policy Gap Handoff
 
-- Use when policy, privacy, auditability, or approval-driven traceability shapes the work.
+- Use when a control question cannot be answered until product intent or business rules are clarified.
 - Expected outputs:
-  - traceable requirement mapping
-  - policy-driven constraints
-  - explicit approval questions and risk notes
+  - governance-shaped handoff to product
+  - explicit unblock criteria
 - Boundary:
-  - do not replace legal or compliance judgment
-- Source: [grc_compliance_requirement_mapping.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/assets/training/fine_tuning/corpus/interactions/grc_compliance_requirement_mapping.md)
+  - do not invent the missing business rule
+- Source: [product_policy_gap_handoff.md](../../../../automation/roles/quality_and_security_and_governance_manager/assets/training/fine_tuning/corpus/interactions/product_policy_gap_handoff.md)
+
+## Architecture Boundary Handoff
+
+- Use when the review can identify risk but the mitigation depends on an unresolved design boundary.
+- Expected outputs:
+  - review note that names the architecture blocker
+  - clear design question and unblock criteria
+- Source: [architecture_boundary_handoff.md](../../../../automation/roles/quality_and_security_and_governance_manager/assets/training/fine_tuning/corpus/interactions/architecture_boundary_handoff.md)
+
+## Deployment Readiness Handoff
+
+- Use when the gate outcome is blocked by rollout, rollback, monitoring, or support readiness.
+- Expected outputs:
+  - release gate memo with deployment handoff
+  - explicit no-ship condition and unblock criteria
+- Source: [deployment_readiness_handoff.md](../../../../automation/roles/quality_and_security_and_governance_manager/assets/training/fine_tuning/corpus/interactions/deployment_readiness_handoff.md)
 

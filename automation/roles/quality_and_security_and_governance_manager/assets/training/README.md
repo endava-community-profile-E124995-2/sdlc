@@ -1,3 +1,15 @@
-# Training Notes
+# Training Layer
 
-Structured training assets for this role have not been expanded yet. Use the active agent docs as the canonical source for now.
+This folder holds assets used to improve the assistant beyond raw retrieval.
+
+## Subfolders
+
+- `fine_tuning/`: structured corpus, schemas, exemplars, evals, and tooling
+
+## Builder Rule
+
+When improving the assistant:
+
+1. encode repeatable quality, security, and governance behavior as policy, contracts, cases, or examples
+2. add eval coverage for the behavior
+3. only then expand raw fallback knowledge

@@ -1,6 +1,6 @@
 interface:
   display_name: "Quality and Security and Governance Manager"
-  short_description: "Quality review and release-gate mapping"
+  short_description: "Independent assurance, control mapping, and release-gate review"
   default_prompt: "Use $quality-and-security-and-governance-manager to review this request using the canonical role docs under automation/roles/quality_and_security_and_governance_manager."
 
 policy:

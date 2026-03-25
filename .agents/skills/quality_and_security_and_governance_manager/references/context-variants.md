@@ -2,7 +2,7 @@
 
 Use this reference after identifying the base task. Apply one variant unless the request clearly spans two environments.
 
-Active agent source: [agent/source_index.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/agent/source_index.md)
+Active agent source: [agent/source_index.md](../../../../automation/roles/quality_and_security_and_governance_manager/agent/source_index.md)
 
 ## Variant Selection
 
@@ -27,12 +27,12 @@ Active agent source: [agent/source_index.md](../../../../sdlc_automation/ai_agen
 When the work is regulated:
 
 - raise the threshold for silent assumptions
-- require traceability from policy or control to product behavior
+- require traceability from policy or control to affected behavior and evidence
 - prefer explicit approval questions, exception handling, and change-control notes
 - escalate sooner when legal or compliance interpretation is unclear
 
 ## Sources
 
-- [overview.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/assets/training/fine_tuning/corpus/variants/overview.md)
-- [regulated.md](../../../../sdlc_automation/ai_agents/01_product_and_requirements_manager/assets/training/fine_tuning/corpus/variants/regulated.md)
+- [overview.md](../../../../automation/roles/quality_and_security_and_governance_manager/assets/training/fine_tuning/corpus/variants/overview.md)
+- [regulated.md](../../../../automation/roles/quality_and_security_and_governance_manager/assets/training/fine_tuning/corpus/variants/regulated.md)
 

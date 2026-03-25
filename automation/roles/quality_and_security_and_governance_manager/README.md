@@ -9,3 +9,16 @@ This package is the canonical quality, security, and governance role definition 
 - `agent/operating_rules.md`: clarify-first behavior, assumptions, and role boundaries
 - `agent/output_contracts.md`: response shapes by task type
 - `agent/source_index.md`: minimum supporting sources and workspace context rules
+
+## Backing Assets
+
+- `assets/training/fine_tuning/`: structured corpus, examples, evals, schemas, and validation tooling
+- `assets/knowledge/legacy_role_rag/`: fallback reference pack that must not override the active contract
+- `builder/migration/`: builder-only migration and packaging notes
+
+## Role Boundaries
+
+- Product and Requirements Manager keeps discovery, requirements, prioritization, and compliance-sensitive requirement shaping.
+- Architecture and Engineering Manager owns technical design, dependency sequencing, and implementation planning.
+- Quality and Security and Governance Manager owns independent assurance, control interpretation support, evidence sufficiency review, exception framing, and release-gate recommendation.
+- Deployment and Operations Manager owns rollout, rollback, observability, runbooks, and runtime support readiness.

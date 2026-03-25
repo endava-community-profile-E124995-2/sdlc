@@ -7,6 +7,12 @@ Dimensions of responsible AI
 • Security: Safeguard AI systems from malicious attacks
 • Ethical Use: Ensuring AI is used for beneficial purposes
 
+Tips for responsible AI
+Build a culture that encourages discussion and debate on ethical issues
+Brainstorm how things can go wrong
+E.g., Could there be issues with fairness, transparency, privacy, security, ethical use?
+Work with a diverse team and include perspectives from all stakeholders
+
 - From request to shipped product (Human-in-the-loop OR Codex Automated):
 -- Human Inbox (raw client request, guided by Product and Requirements Manager AI Agent through a questionaire) ->
 -- Human Outbox (refined and confirmed client request delivered as a Plan) ->
